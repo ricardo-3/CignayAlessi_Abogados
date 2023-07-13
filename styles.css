@@ -24,18 +24,18 @@ img {
     
 .profile {
     text-align: center;
+    justify-content: center;
     font-size: 15px;
     letter-spacing: 2px;   
     margin: 0;
+    margin-top: 50px;
 }
 
 a.profile:hover{
     color: #83601c;
 }
 
-.name{
-    padding: 30 30 7 30px;
-}
+
 
 .motto{
     padding: 7 30 10 30px;
@@ -94,5 +94,13 @@ a i:hover{
     margin-top: 40px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.titulo{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
